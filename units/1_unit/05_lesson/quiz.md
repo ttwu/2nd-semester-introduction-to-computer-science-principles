@@ -35,6 +35,6 @@ Write down what you would expect to get back from the terminal (string, an integ
 <br>
 <br>
 What will be printed out after this code: 
-!(quiz_code)[quiz_phto.png]
+!(quiz_code)[quiz_photo.png]
 
 Write out a program that asks the users name, and returns a personalized greeting to them. 

@@ -4,7 +4,7 @@
 <br>
 <br>
 <br>
-2. Define interpreter? 
+3. What is an IDE's interpreter used for?
 <br>
 <br>
 <br>

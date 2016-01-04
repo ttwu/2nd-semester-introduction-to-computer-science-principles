@@ -18,14 +18,14 @@ Using the interpreter, type in the expressions below. Copy and paste the output 
 
 ###Section 2
 
-||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**|
+|  |**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**|
 |-| ----| ------- | ----------- |
 |a| `a` | | | 
 |b|`'a'`| | | |
 
 ###Section 3
 
-||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
+|  |**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
 |-| ----| ------- | ----------- |
 |a| `'a + b'`| | | 
 |b| `'a' + 'b'`| || | 
@@ -35,7 +35,7 @@ Using the interpreter, type in the expressions below. Copy and paste the output 
 
 
 
-||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
+|  |**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
 |-| ----| ------- | ----------- |
 |a| `'a' * 'b'` | | | 
 |b| `'a' * 2` | | | |

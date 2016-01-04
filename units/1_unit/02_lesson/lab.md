@@ -6,8 +6,8 @@ Using the interpreter, type in the expressions below. Copy and paste the output 
 
 ###Section 1
 
-| |**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**|
-|-| ----| ------- | ----------- |
+||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**|
+|:-: | :----: | :-------: | :-----------: |
 |a| `5 + 2 * 2` | | | 
 |b| `2/3 `| | | 
 |c| `2.0 * 1.5`|  | 
@@ -18,15 +18,15 @@ Using the interpreter, type in the expressions below. Copy and paste the output 
 
 ###Section 2
 
-|  |**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**|
-|-| ----| ------- | ----------- |
+||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**|
+|:-: | :----: | :-------: | :-----------: |
 |a| `a` | | | 
 |b|`'a'`| | | |
 
 ###Section 3
 
-|  |**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
-|-| ----| ------- | ----------- |
+||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
+|:-: | :----: | :-------: | :-----------: |
 |a| `'a + b'`| | | 
 |b| `'a' + 'b'`| || | 
 
@@ -35,8 +35,8 @@ Using the interpreter, type in the expressions below. Copy and paste the output 
 
 
 
-|  |**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
-|-| ----| ------- | ----------- |
+||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
+|:-: | :----: | :-------: | :-----------: |
 |a| `'a' * 'b'` | | | 
 |b| `'a' * 2` | | | |
 

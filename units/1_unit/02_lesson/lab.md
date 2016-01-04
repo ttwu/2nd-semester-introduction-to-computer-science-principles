@@ -8,27 +8,27 @@ Using the interpreter, type in the expressions below. Copy and paste the output 
 
 | |**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**|
 |-| ----| ------- | ----------- |
-|a| `5 + 2 * 2` |<br><br><br><br>| | 
-|b| `2/3 `|<br><br><br><br>| | 
-|c| `2.0 * 1.5`|<br><br><br><br>| | 
-|d| `(2 + 3) * 10`|<br><br><br><br>| | 
-|e| `5.0 // 2` |<br><br><br><br>| | 
-|f| `5.0 % 2` |<br><br><br><br>| | |
+|a| `5 + 2 * 2` | | | 
+|b| `2/3 `| | | 
+|c| `2.0 * 1.5`|  | 
+|d| `(2 + 3) * 10`| | | 
+|e| `5.0 // 2` | | | 
+|f| `5.0 % 2` | | | |
     
 
 ###Section 2
 
 ||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**|
 |-| ----| ------- | ----------- |
-|a| `a` |<br><br><br><br>| | 
-|b|`'a'`|<br><br><br><br>| | |
+|a| `a` | | | 
+|b|`'a'`| | | |
 
 ###Section 3
 
 ||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
 |-| ----| ------- | ----------- |
-|a| `'a + b'`|<br><br><br><br>| | 
-|b| `'a' + 'b'`|<br><br><br><br>|| | 
+|a| `'a + b'`| | | 
+|b| `'a' + 'b'`| || | 
 
 
 ###Section 4
@@ -37,8 +37,8 @@ Using the interpreter, type in the expressions below. Copy and paste the output 
 
 ||**Input** | &nbsp; &nbsp; **Output** &nbsp; &nbsp;|**Did it do something unexpected?**| 
 |-| ----| ------- | ----------- |
-|a| `'a' * 'b'` |<br><br><br><br>| | 
-|b| `'a' * 2` |<br><br><br><br>| | |
+|a| `'a' * 'b'` | | | 
+|b| `'a' * 2` | | | |
 
 ## Part 2
 **Before going to the IDE: **

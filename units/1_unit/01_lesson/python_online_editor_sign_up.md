@@ -43,3 +43,4 @@ You can ignore the other parts for now!
 2. To run the interactive shell: type `python3` into the prompt
 ![Interactive shell](running_python3_photo.png) 
 3. To run a file: type `python3 [filename]`, but instead of `[filename]` use the name of the file you are trying to run
+

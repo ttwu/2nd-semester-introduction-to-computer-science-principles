@@ -3,7 +3,7 @@
 1) Without using the computer, predict what the following inputs will result in. Once you have filled in the "prediction" column, check your answers in interactive mode and write the actual result. 
 
 | **Input** | **Prediction** | **Result** |
-|--|--|--| 
+|:--:|:--:|:--:| 
 | `float('1')`| | | 
 | `str(1 + '2')`| | |
 | `str('2')`| | |

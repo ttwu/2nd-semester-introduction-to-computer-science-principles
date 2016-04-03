@@ -26,7 +26,7 @@ And remember to change it back to python 3 before moving onto the next unit!
 		- Now you can paste this url into a browser of your choice (chrome, firefox, etc) and you should see
 		![link](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp05.PNG)
     - Also note that after you loaded the page, in your cloud9 terminal, it will show:
-    ![log](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp06.png)
+    ![log](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp06.PNG)
     That shows that our server code got a reqest for the "/" page and it successfully responded.
 2.  __The major parts of the webapp__ (Notes are already in comments of provided code.)
     * 1.  need to import web.py (since we need to use this library)
@@ -49,19 +49,19 @@ And remember to change it back to python 3 before moving onto the next unit!
 
 ### Adding another page (endpoint) ###
 1.  Let's say we wanted to add more pages (also called an endpoint).  This is an example of how we can do that.
-![two pages](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp07.png)
+![two pages](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp07.PNG)
 
 ## Exercises ##
 4.  What do you think the second link will be?  And what you will see if you go to the second link?  (Type it up and confirm.)
 5.  Add another 4 pages that adapt your answers from lab 4.03.  (You must use for loops to build the results like in your answers from the previous lab.)
     - https://<your id>.c9users.io/draw_7     should print
-        ![draw_7](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp08.png)
+        ![draw_7](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp08.PNG)
     - https://<your id>.c9users.io/stars_and_stripes     should print
-        ![stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp09.png)
+        ![stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp09.PNG)
     - https://<your id>.c9users.io/increasing_triangle     should print
-        ![increasing_triangle](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp10.png)
+        ![increasing_triangle](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp10.PNG)
     - https://<your id>.c9users.io/vertical_stars_and_stripes     should print
-        ![vertical_stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp11.png)
+        ![vertical_stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp11.PNG)
     (Paste links to all 4 as the answer to this question.)
     
 ### Let's make it more interesting ###

@@ -6,7 +6,7 @@ https://<your id>.c9users.io/
 ### Important notes: ###
 1.  __You will need to use python 2__ to use web.py (we have been using python 3 for the rest of the semester).  Make sure to change it before trying to run a program in this unit.
 (To change it, go to settings for your workspace
-![settings](webapp_01.png)
+![settings](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp01.PNG)
 then scroll to the bottom and change the Python setting.)
 And remember to change it back to python 3 before moving onto the next unit!
 2.  __There are many parts to a web page.__
@@ -18,15 +18,15 @@ And remember to change it back to python 3 before moving onto the next unit!
 ### Let's get started! ###
 1.  __What is the simplest program you can write in any language?__ Hello World.
 	- Here's what hello world looks like as a python web app.  Type it up and save as webapp01.py in a new folder in your workspace called __webapps__.
-	![hello world](webapp02.png)
+	![hello world](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp02.PNG)
 	- __Here's how you get it to serve up as a webpage.__
-		- Run this in cloud9.  ![run](webapp03.png)
+		- Run this in cloud9.  ![run](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp03.PNG)
 		- Look at the terminal and it will tell you the app is running at a url like:  https://<your_cloud9_account_name>.c9users.io
-	    ![link](webapp04.png)
+	    ![link](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp04.PNG)
 		- Now you can paste this url into a browser of your choice (chrome, firefox, etc) and you should see
-		![link](webapp05.png)
+		![link](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp05.PNG)
     - Also note that after you loaded the page, in your cloud9 terminal, it will show:
-    ![log](webapp06.png)
+    ![log](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp06.png)
     That shows that our server code got a reqest for the "/" page and it successfully responded.
 2.  __The major parts of the webapp__ (Notes are already in comments of provided code.)
     * 1.  need to import web.py (since we need to use this library)
@@ -49,19 +49,19 @@ And remember to change it back to python 3 before moving onto the next unit!
 
 ### Adding another page (endpoint) ###
 1.  Let's say we wanted to add more pages (also called an endpoint).  This is an example of how we can do that.
-![two pages](webapp07.png)
+![two pages](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp07.png)
 
 ## Exercises ##
 4.  What do you think the second link will be?  And what you will see if you go to the second link?  (Type it up and confirm.)
 5.  Add another 4 pages that adapt your answers from lab 4.03.  (You must use for loops to build the results like in your answers from the previous lab.)
     - https://<your id>.c9users.io/draw_7     should print
-        ![draw_7](webapp08.png)
+        ![draw_7](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp08.png)
     - https://<your id>.c9users.io/stars_and_stripes     should print
-        ![stars_and_stripes](webapp09.png)
+        ![stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp09.png)
     - https://<your id>.c9users.io/increasing_triangle     should print
-        ![increasing_triangle](webapp10.png)
+        ![increasing_triangle](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp10.png)
     - https://<your id>.c9users.io/vertical_stars_and_stripes     should print
-        ![vertical_stars_and_stripes](webapp11.png)
+        ![vertical_stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp11.png)
     (Paste links to all 4 as the answer to this question.)
     
 ### Let's make it more interesting ###

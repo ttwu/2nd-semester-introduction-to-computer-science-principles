@@ -45,21 +45,49 @@ And remember to change it back to python 3 before moving onto the next unit!
         - What do you see in the browser?
         - What do you see in the terminal?
  2.  Note that once you start the webapp it keeps running, but you can stop it by pressing the red square stop button.  What happens if you stop your program from running and then try to reload the page?
-3.  Update your Hello World app so it prints a message that includes your name.  And then give that link to one of your classmates that are also working on this project and make sure they can load it from their browser and see the correct message.
+3.  Update your Hello World app so it prints a message that includes your name.  And then give that link to one of your classmates that are also working on this project and make sure they can load it from their browser and see the correct message.  (Paste the link to this page as the answer to this question.)
 
-	- what if you wanted it to say something else other than "Hello World?"
-	- what if you wanted some other page to do something else?  like if I wanted 'https://smhs-01tingting-ttwu.c9users.io/bunny' to give me a bunny 
+### Adding another page (endpoint) ###
+1.  Let's say we wanted to add more pages (also called an endpoint).  This is an example of how we can do that.
+![two pages](webapp07.png)
 
-ascii art?
+## Exercises ##
+4.  What do you think the second link will be?  And what you will see if you go to the second link?  (Type it up and confirm.)
+5.  Add another 4 pages that adapt your answers from lab 4.03.  (You must use for loops to build the results like in your answers from the previous lab.)
+    - https://<your id>.c9users.io/draw_7     should print
+        ![draw_7](webapp08.png)
+    - https://<your id>.c9users.io/stars_and_stripes     should print
+        ![stars_and_stripes](webapp09.png)
+    - https://<your id>.c9users.io/increasing_triangle     should print
+        ![increasing_triangle](webapp10.png)
+    - https://<your id>.c9users.io/vertical_stars_and_stripes     should print
+        ![vertical_stars_and_stripes](webapp11.png)
+    (Paste links to all 4 as the answer to this question.)
+    
+### Let's make it more interesting ###
+6.  How do you do inputs?
+    - what kind of inputs can we do?
+        - we can take an input to build text
+            - write a new version of the previous 4 apps so that it takes in a number to know how to build string
+        - we can use one page to collect input and send it to another page that uses those answers
+            - write an app that asks the user to fill out words for madlibs, then it sends it to another app that uses it to print your mad libs story.
+    - what kind of inputs can we NOT do?
+        - The kind of interaction we had with a regular python app not on the web, where we can enter input and the program responds and prints something else out, we cannot do with python on a webapp.  Since python is acting only on the backend, its job is to send us HTML and javascript code we will need to render the page.  We send it data when we request a page, and it sends us that page.  The interaction that we want when in a web page should be implemented in the javascript layer, because javascript is the language of internet browsers.  We won't go into javascript in this class any further in this class, but there are many excellent resources on the web that can get you started.  (Let me know if you want somewhere to start.)
 
-5.      
-    what if you want to make a web app that printed out the patterns from your lab 4.3?
-	make it so that if you go to the link
-	"https://<your id>.c9users.io/b7_stars" it prints
-	"https://<your id>.c9users.io/stars_and_stripes" it prints
-	...
+7.  __Let's do some HTML__
+    - HTML is not technically a programming language.  It is a markup language that lets us place elements onto a webpage.  
+    - 
 
-6.  how do you do inputs?
+### So why do we want to do this? ###
+At the end of all this work, it might have seem that we have taken some steps forwards and some steps back.  
 
-7.  how do you add html tags?
-	
+Let's look at the pluses and minuses.
+
+    + We can turn a python app into a web app and we can access it from the internet.
+    - We can't do inputs as easily as a regular python app, so some of our apps would need to be reimplemented in javascript to work on the web.
+    + We can utilize HTML and javascript to enrich our app with colors and images, etc.
+    - HTML and javascript what we need to make the frontend more interesting.  So why do we need python?
+    
+That final question is an important one.  The answer is that we barely scratched the surface of what python can do on the web server.  In our examples we only used python to build some strings, but you can use python to access databases (pull your stored images from twitter or tumblr), to maintain your own database (upload and store musical clips), to query other services (ask weather.com for the latest weather information), etc.
+
+You should think of python in the webapp use case as the language that will do the behind the scenes work of gathering information, then it packages that data with HTML and javascript.  HTML and javascript do the front-facing work of configuring how the webpage will look to you.

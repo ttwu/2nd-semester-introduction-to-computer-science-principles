@@ -6,7 +6,7 @@ https://\<your id>\.c9users.io/
 ### Important notes: ###
 1.  __You will need to use python 2__ to use web.py (we have been using python 3 for the rest of the semester).  Make sure to change it before trying to run a program in this unit.
 (To change it, go to settings for your workspace
-![settings](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp01.PNG)
+![settings](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp01.PNG?raw=true "settings")
 then scroll to the bottom and change the Python setting.)
 And remember to change it back to python 3 before moving onto the next unit!
 2.  __There are many parts to a web page.__
@@ -18,15 +18,15 @@ And remember to change it back to python 3 before moving onto the next unit!
 ### Let's get started! ###
 1.  __What is the simplest program you can write in any language?__ Hello World.
 	- Here's what hello world looks like as a python web app.  Type it up and save as webapp01.py in a new folder in your workspace called __webapps__.
-	![hello world](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp02.PNG)
+	![hello world](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp02.PNG?raw=true)
 	- __Here's how you get it to serve up as a webpage.__
-		- Run this in cloud9.  ![run](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp03.PNG)
+		- Run this in cloud9.  ![run](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp03.PNG?raw=true)
 		- Look at the terminal and it will tell you the app is running at a url like:  https://\<your_cloud9_account_name>\.c9users.io
-	    ![link](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp04.PNG)
+	    ![link](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp04.PNG?raw=true)
 		- Now you can paste this url into a browser of your choice (chrome, firefox, etc) and you should see
-		![link](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp05.PNG)
+		![link](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp05.PNG?raw=true)
     - Also note that after you loaded the page, in your cloud9 terminal, it will show:
-    ![log](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp06.PNG)
+    ![log](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp06.PNG?raw=true)
     That shows that our server code got a reqest for the "/" page and it successfully responded.
 
 ### What's happening here? ###
@@ -57,25 +57,25 @@ And remember to change it back to python 3 before moving onto the next unit!
 
 ### Adding another page (endpoint) ###
 1.  Let's say we wanted to add more pages (also called an endpoint).  This is an example of how we can do that.
-![two pages](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp07.PNG)
+![two pages](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp07.PNG?raw=true)
 
 ## Exercises ##
 4.  What do you think the second link will be?  And what you will see if you go to the second link?  (Type it up the code, run it and confirm.)  Did anything happen that was unexpected?
 5.  Add another 4 pages that adapt your answers from lab 4.03.  (You must use for loops to build the results like in your answers from the previous lab.)
     - https://\<your id>\.c9users.io/draw_7     should print
-        ![draw_7](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp08.PNG)
+        ![draw_7](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp08.PNG?raw=true)
     - https://\<your id>\.c9users.io/stars_and_stripes     should print
-        ![stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp09.PNG)
+        ![stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp09.PNG?raw=true)
     - https://\<your id>\.c9users.io/increasing_triangle     should print
-        ![increasing_triangle](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp10.PNG)
+        ![increasing_triangle](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp10.PNG?raw=true)
     - https://\<your id>\.c9users.io/vertical_stars_and_stripes     should print
-        ![vertical_stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp11.PNG)
+        ![vertical_stars_and_stripes](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp11.PNG?raw=true)
     (Paste links to all 4 as the answer to this question.)
     
 ### Let's make it more interesting ###
 6.  __Let's add inputs.__  
     - here's an example of how you add an input that you can access in your GET method
-    ![input](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp12.PNG)
+    ![input](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp12.PNG?raw=true)
 
 ### Exercise ###
 6.  Type up the previous example and run it.  
@@ -99,13 +99,13 @@ And remember to change it back to python 3 before moving onto the next unit!
     - For your answer to this question, paste a link with sample input words.  Your page should still work if I decide to change up the arguments in your link
 
 ### What kind of input can we not do with python in a web app?  ###
-    - The kind of interaction we had with a regular python app where we can enter input and the program responds and prints something else out, we cannot do with python on a webapp.  Like with the text-based adventure game, or Oregon Trail where the program asks for a command, we type something in, and then the program prints something new and asks us for more input (repeated indefinitely), this we cannot do in python on this webapp.
-    - __Why not?__ Since python is acting only on the backend, its job is to send us HTML and javascript code we will need to render the page.  We send it data when we request a page, and it sends us that page.  The interaction that we want when in a web page should be implemented in the javascript layer, because javascript is the language of internet browsers.  We won't go into javascript in this class any further in this class, but there are many excellent resources on the web that can get you started.  (Let me know if you want somewhere to start.)
+- The kind of interaction we had with a regular python app where we can enter input and the program responds and prints something else out, we cannot do with python on a webapp.  Like with the text-based adventure game, or Oregon Trail where the program asks for a command, we type something in, and then the program prints something new and asks us for more input (repeated indefinitely), this we cannot do in python on this webapp.
+- __Why not?__ Since python is acting only on the backend, its job is to send us HTML and javascript code we will need to render the page.  We send it data when we request a page, and it sends us that page.  The interaction that we want when in a web page should be implemented in the javascript layer, because javascript is the language of internet browsers.  We won't go into javascript in this class any further in this class, but there are many excellent resources on the web that can get you started.  (Let me know if you want somewhere to start.)
 
-7.  __Let's do some HTML__
-    - HTML is not technically a programming language.  It is a markup language but it's important because it lets us define what elements go on a webpage, and how they should be arranged and how they should appear.  Basically it lets us make this page pretty.
-    - Here is an example of a webapp that writes some HTML.
-    - ![html](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp13.PNG)
+### Let's do some HTML ###
+- HTML is not technically a programming language.  It is a markup language but it's important because it lets us define what elements go on a webpage, and how they should be arranged and how they should appear.  Basically it lets us make this page pretty.
+- Here is an example of a webapp that writes some HTML.
+- ![html](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp13.PNG?raw=true)
 
 ### Exercises ###
 10.  Type up the example above and run it and go to the page and see what you get.
@@ -114,9 +114,9 @@ And remember to change it back to python 3 before moving onto the next unit!
 - But as you can imagine it gets pretty cluttered and confusing since it all has to be inside a string.  An easier way to write HTML that you will use for an app is by using templating.
 - To start, create a folder in your webapps directory called "templates".
 - Inside that folder create a file called templatedPageApp.html and type up this inside.
-- ![html](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp14.PNG)
+- ![html](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp14.PNG?raw=true)
 - Next, create a new python file and type this up in it
-- ![html](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp15.PNG)
+- ![html](https://github.com/ttwu/2nd-semester-introduction-to-computer-science-principles/blob/master/units/5b_unit/webapp15.PNG?raw=true)
 - Note:
     - line 12 is the line that says look in the templates folder for html files
     - line 13 uses the render object created from web.template.render to grab the templatedPageApp.html file and render the contents of that.
